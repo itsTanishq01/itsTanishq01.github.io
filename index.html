@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tanishq Nimje</title>
+    <!-- Google Font -->
+    <link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- Preloader -->
+    <link rel="stylesheet" href="css/preloader.css" type="text/css" media="screen, print"/>
+
+    <!-- Icon Font-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Animate CSS-->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Style -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+
+    <style>
+        /* Add any additional styles for your page */
+        body {
+            margin: 0;
+            overflow: hidden; /* Ensure the Waves effect covers the entire viewport */
+        }
+
+        #net-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 0; /* Place the container at the bottom */
+        }
+
+        #text-container {
+            position: fixed;
+            left: 0%;
+            right: 0%;
+            top: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.6); /* Translucent black background */
+            z-index: 1; /* Place the container in the middle */
+        }
+
+        /* Your existing styles for text content */
+        header, section, footer {
+            position: relative;
+            z-index: 2; /* Place the text content on top */
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="text-container"></div>
+    <script src="js/three.r119.min.js"></script>
+    <script src="js/vanta.waves.min.js"></script>
+    <div id="vantanet" >   </div>
+    <script>
+        VANTA.NET({
+        el: "#vantanet",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x3498db,
+        backgroundColor: 0x0
+        })
+    </script>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+
+    <header id="HOME" style="background-position: 50% -125px;">
+        <div class="section_overlay">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    
+                </div>
+            </nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="home_text wow fadeInUp animated">
+                            <h2>It's Tanishq Nimje</h2>
+                            <p>A Student At Kalinga Institute of Industrial Technology </p>
+                            <p>Persuing Bachelors In Information Technology </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+
+
+    <section class="AboutMe" id="ABOUT">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="about_title">
+                        <h2>About Me</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6  wow fadeInLeft animated">
+                    <div class="single_progress_bar">
+                        <h2 style="font-size: 24px;">University</h2>
+                        <p style="font-size: 18px;">Kalinga Institute of Industrial Technology</p>
+                        <h2 style="font-size: 24px;">Degree</h2>
+                        <p style="font-size: 18px;">Bachelor of Technology</p>
+                    </div>
+                </div>
+                <div class="col-md-6  wow fadeInRight animated">
+                    <div class="single_progress_bar">
+                        <h2 style="font-size: 24px;">City</h2>
+                        <p style="font-size: 18px;">Bhubaneshwar, Orissa</p>
+                        <h2 style="font-size: 24px;">Birthdate</h2>
+                        <p style="font-size: 18px;">01 June 2004</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="margin-bottom: 40px;">
+            <div class="row">
+                <div class="col-md-12  wow fadeInRight animated">
+                    <p class="about_us_p" style="font-size: 18px;">
+                        I am currently pursuing a Bachelor of Technology degree at Kalinga Institute of Industrial Technology, where I am actively engaged in exploring the fields of game development, system design, and computer hardware.
+                    </p>
+                    
+                    <p class="about_us_p" style="font-size: 18px;">
+                        My primary programming language is C/C++, and I possess proficiency in C#, SQL, and NoSQL databases such as MySQL and MongoDB. I am committed to continuous learning and expanding my knowledge base in these areas.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Education and Experiences Section in Two Columns -->
+    <section class="resume" id="RESUME">
+        <div class="container">
+            <div class="row">
+                <!-- Education Section -->
+                <div class="col-md-6 wow fadeInLeft animated">
+                    <div class="single_progress_bar">
+                        <h2 style="font-size: 24px;">Education</h2>
+                        <h2 style="font-size: 24px;">Kalinga Institute of Industrial Technology, Bhubaneswar</h2>
+                        <p style="font-size: 18px;">Bachelor of Technology - BTech, Information Technology</p>
+                        <p style="font-size: 18px;">2022 - 2026</p>
+                    </div>
+                    <div class="single_progress_bar">
+                        <h2 style="font-size: 24px;">Shivashish World School - India</h2>
+                        <p style="font-size: 18px;">Student</p>
+                        <p style="font-size: 18px;">2019 - 2022</p>
+                    </div>
+                    <div class="single_progress_bar">
+                        <h2 style="font-size: 24px;">Shanti Asiatic School - India</h2>
+                        <p style="font-size: 18px;">Student</p>
+                        <p style="font-size: 18px;">2017 - 2019</p>
+                        <p style="font-size: 18px;">Worked as a member of Student Council</p>
+                    </div>
+                </div>
+
+                <!-- Experiences Section -->
+                <div class="col-md-6 wow fadeInRight animated">
+                    <div class="single_progress_bar">
+                        <h2 style="font-size: 24px;">Experiences</h2>
+                        <h2 style="font-size: 24px;">Core Developer</h2>
+                        <p style="font-size: 18px;">GeeksforGeeks KIIT</p>
+                        <p style="font-size: 18px;">Jul 2023 - Present</p>
+                    </div>
+                    <!-- Add more experiences if needed -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="SKILLS">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 wow fadeInUp animated">
+                    <div class="single_progress_bar">
+                        <h2 style="font-size: 24px;">Skills</h2>
+                        <!-- Add your skills with percentage meters -->
+                        <div>
+                            <p style="font-size: 18px;">C: 80%</p>
+                            <div class="progress" style="height: 20px;">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p style="font-size: 18px;">C++: 90%</p>
+                            <div class="progress" style="height: 20px;">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <!-- Add more skills as needed -->
+                        <div>
+                            <p style="font-size: 18px;">C#: 70%</p>
+                            <div class="progress" style="height: 20px;">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p style="font-size: 18px;">Java: 85%</p>
+                            <div class="progress" style="height: 20px;">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p style="font-size: 18px;">Unreal Engine: 45%</p>
+                            <div class="progress" style="height: 20px;">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Contact Section -->
+<section class="contact" id="CONTACT">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="contact_title wow fadeInUp animated">
+                    <h1>Details</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add a blank line for tidiness -->
+    <div class="container" style="margin-bottom: 40px;"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center wow fadeInUp animated">
+                <div class="single_contact_info">
+                    <h2>Contact</h2>
+                    <p>+91 8249701710</p>
+                </div>
+                <div class="single_contact_info">
+                    <h2>Email</h2>
+                    <p>tanishqnimje01@gmail.com</p>
+                </div>
+                <div class="single_contact_info">
+                    <h2>Address</h2>
+                    <p>Bhubaneshwar, Orissa, India</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add a blank line for tidiness -->
+    <div class="container" style="margin-bottom: 40px;"></div>
+
+    <!-- Socials Section -->
+    <section id="FOLLOW_ME" class="follow-me">
+        <div id="follow-me-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center wow fadeInUp animated">
+                        <div class="social-container">
+                            <h2>My Socials</h2>
+                            <ul class="icon_list bigger-icons">
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                <li><a href=""><i class="fa fa-github"></i></a></li>
+                                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                                <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+
+
+
+<!-- =========================
+     SCRIPTS 
+============================== -->
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
