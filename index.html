@@ -9,7 +9,6 @@
     <!-- Google Font -->
     <link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -41,8 +40,15 @@
         body {
             margin: 0;
             overflow: hidden; /* Ensure the Waves effect covers the entire viewport */
+            color: #fff; /* Set text color to white */
         }
 
+        /* Add styles for the text content */
+        header, section, footer {
+            color: #fff;
+        }
+
+        /* Your existing styles for other elements */
         #net-container {
             position: fixed;
             top: 0;
@@ -58,14 +64,8 @@
             right: 0%;
             top: 0;
             bottom: 0;
-            background-color: rgba(0, 0, 0, 0.6); /* Translucent black background */
+            background-color: rgba(0, 0, 0, 0.5); /* Translucent black background */
             z-index: 1; /* Place the container in the middle */
-        }
-
-        /* Your existing styles for text content */
-        header, section, footer {
-            position: relative;
-            z-index: 2; /* Place the text content on top */
         }
 
     </style>
@@ -255,42 +255,47 @@
             </div>
         </div>
     </section>
-<!-- Contact Section -->
-<section class="contact" id="CONTACT">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <div class="contact_title wow fadeInUp animated">
-                    <h1>Details</h1>
+    <!-- Contact Section -->
+    <section class="contact" id="CONTACT">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="contact_title wow fadeInUp animated">
+                        <h1>Details</h1>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+
+        <!-- Add a blank line for tidiness -->
+        <div class="container" style="margin-bottom: 40px;"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center wow fadeInUp animated">
+                    <div class="single_contact_info">
+                        <h2>Contact</h2>
+                        <p>+91 8249701710</p>
+                    </div>
+                    <div class="single_contact_info">
+                        <h2>Email</h2>
+                        <p>tanishqnimje01@gmail.com</p>
+                    </div>
+                    <div class="single_contact_info">
+                        <h2>Address</h2>
+                        <p>Bhubaneshwar, Orissa, India</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add a blank line for tidiness -->
+        <div class="container" style="margin-bottom: 40px;"></div>
+
 
     <!-- Add a blank line for tidiness -->
     <div class="container" style="margin-bottom: 40px;"></div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center wow fadeInUp animated">
-                <div class="single_contact_info">
-                    <h2>Contact</h2>
-                    <p>+91 8249701710</p>
-                </div>
-                <div class="single_contact_info">
-                    <h2>Email</h2>
-                    <p>tanishqnimje01@gmail.com</p>
-                </div>
-                <div class="single_contact_info">
-                    <h2>Address</h2>
-                    <p>Bhubaneshwar, Orissa, India</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Add a blank line for tidiness -->
-    <div class="container" style="margin-bottom: 40px;"></div>
 
 <!-- My Socials Section -->
 <section id="FOLLOW_ME" class="follow-me">
